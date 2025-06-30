@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube layout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+    <header class="header">
+        <div class="left-section">
+            <button class="menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+            <img src="https://www.gstatic.com/youtube/img/branding/favicon/favicon_144x144.png" alt="YouTube Logo" class="youtube-logo">
+            <span class="logo-text">YouTube</span>
+        </div>
+
+        <div class="middle-section">
+            <input type="text" placeholder="Search" class="search-bar">
+            <button type="submit" class="search-button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+
+        <div class="right-section">
+            <i class="fas fa-video icon"></i>
+            <i class="fas fa-th icon"></i>
+            <i class="fas fa-bell icon"></i>
+            <img src="img/pink.jpg" alt="User Avatar" class="user-avatar">
+        </div>
+    </header>
+
+    <div class="main-content-wrapper">
+        <aside class="sidebar">
+            <a href="#" class="sidebar-item active">
+                <i class="fas fa-house"></i>
+                <span>Home</span>
+            </a>
+            <a href="#" class="sidebar-item">
+                <i class="fas fa-fire"></i>
+                <span>Trending</span>
+            </a>
+            <a href="#" class="sidebar-item">
+                <i class="fas fa-subscriptions"></i>
+                <span>Inscrições</span>
+            </a>
+            <hr>
+            <h2>biblioteca</h2>
+            <ul>
+                <li><a href="#" class="sidebar-item"><i class="fas fa-history"></i><span>Histórico</span></a></li>
+                <li><a href="#" class="sidebar-item"><i class="fas fa-clock"></i><span> Assistir Depois</span></a></li>
+                <li><a href="#" class="sidebar-item"><i class="fas fa-thumbs-up"></i><span>Videos Curtidos</span></a></li>
+            </ul>
+            <hr>
+            <h2>Mais do YouTube</h2>
+            <ul>
+                <li><a href="#" class="sidebar-item"><i class="fab fa-youtube"></i><span>YouTube Premium</span></a></li>
+                <li><a href="#" class="sidebar-item"><i class="fas fa-music"></i><span>YouTube Music</span></a></li>
+                <li><a href="#" class="sidebar-item"><i class="fas fa-child"></i><span>YouTube Kids</span></a></li>
+            </ul>
+        </aside>
+
+        <main class="watch-page-container">
+            <section class="video-player-section">
+                <div class="video-player">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1ekZEVeXwek?si=A2nPSUmXv7TgsIRP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-info-primary">
+                    <h1>Ariana Grande - everytime (Official Audio)</h1>
+                    <div class="video-meta-actions">
+                        <div class="channel-info-subscribe">
+                            <img src="img/ariana grande for eternal sunshine deluxe_ brighter days ahead ~ march 7th 2025.jpeg" alt="Channel Avatar" class="channel-avatar">
+                            <div class="channel-details">
+                                <a href="#" class="channel-name-link">Ariana Grande</a>
+                                <span class="subscribers">50.3M inscritos</span>
+                            </div>
+                            <button class="subscribe-button">
+                                <i class="fas fa-bell"></i> inscrever-se
+                            </button>
+                        </div>
+                        <div class="video-action-buttons">
+                            <button class="action-button">
+                                <i class="fas fa-thumbs-up"></i> <span>1.2M</span>
+                            </button>
+                            <button class="action-button">
+                                <i class="fas fa-thumbs-down"></i> <span>Dislike</span>
+                            </button>
+                            <button class="action-button">
+                                <i class="fas fa-share"></i> <span>Compartilhar</span>
+                            </button>
+                            <button class="action-button">
+                                <i class="fas fa-download"></i> <span>Download</span>
+                            </button>
+                            <button class="action-button">
+                                <i class="fas fa-scissors"></i> <span>Clipe</span>
+                            </button>
+                            <button class="action-button">
+                                <i class="fas fa-bookmark"></i> <span>Salvar</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-descricao-section">
+                    <h2>Descrição</h2>
+                    <p class="descricao-text">
+                        "everytime" from the album 'sweetener' by Ariana Grande.
+                        Listen to sweetener: https://arianagrande.lnk.to/sweetenerYD
+                        <br><br>
+                    <p class="descricao-text">Published on Oct 24, 2018</p>
+                    <p class="descricao-text">Views: 59,667,197</p>
+                </div>
+
+                <div class="comentarios-section">
+                    <h2>comentarios</h2>
+                    <div class="comentarios">
+                        <img src="img/ari.jpg" alt="User Avatar" class="comentarios-avatar">
+                        <div class="comentarios-content">
+                            <p><strong>glindasdaughter:</strong> musica top a melhor d sweetener old</p>
+                            <p class="comentarios-date">2 days ago</p>
+                        </div>
+                    </div>
+                    <div class="comentarios">
+                        <img src="img/arigrande.jpg" alt="User Avatar" class="comentarios-avatar">
+                        <div class="comentarios-content">
+                            <p><strong>righthere790:</strong> melhor era mds volta cuntyari</p>
+                            <p class="comentarios-date">3 days ago</p>
+                        </div>
+                    </div>
+                    </div>
+            </section>
+
+            <aside class="related-videos-section">
+                <div class="autoplay-toggle">
+                    <label>
+                        <input type="checkbox" id="autoplay-checkbox" checked>
+                        Autoplay
+                    </label>
+                </div>
+                <h2>Up Next</h2>
+                <div class="related-video-item">
+                    <img src="https://i.ytimg.com/vi/kJQP7o_e55o/hqdefault.jpg" alt="Despacito Thumbnail">
+                    <div class="related-video-info">
+                        <h3>Luis Fonsi - Despacito ft. Daddy Yankee</h3>
+                        <p>Luis Fonsi</p>
+                        <p>8.2B views • 6 years ago</p>
+                    </div>
+                </div>
+                <div class="related-video-item">
+                    <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Never Gonna Give You Up Thumbnail">
+                    <div class="related-video-info">
+                        <h3>Rick Astley - Never Gonna Give You Up</h3>
+                        <p>Rick Astley</p>
+                        <p>1.5B views • 14 years ago</p>
+                    </div>
+                </div>
+                <div class="related-video-item">
+                    <img src="https://i.ytimg.com/vi/JGwWNGJdvx8/hqdefault.jpg" alt="Gangnam Style Thumbnail">
+                    <div class="related-video-info">
+                        <h3>PSY - GANGNAM STYLE (강남스타일) M/V</h3>
+                        <p>officialpsy</p>
+                        <p>5.1B views • 12 years ago</p>
+                    </div>
+                </div>
+                </aside>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 YouTube Clone. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
